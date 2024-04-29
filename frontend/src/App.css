@@ -1,0 +1,17 @@
+.header{
+  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.532)),
+  url(https://img.freepik.com/free-photo/aesthetic-background-with-light-sunset-projector-lamp_53876-108122.jpg?t=st=1714371739~exp=1714375339~hmac=b87bcec0cc48b6fb815716871e6f1014c82e292a08b0bbf94dba0fc7d01b81b1&w=996);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.home-text{
+  position: absolute;
+  top: 20%;
+  left: 26%;
+}
+
+.home-btn-chat{
+  position: relative;
+  left: 40%;
+}
