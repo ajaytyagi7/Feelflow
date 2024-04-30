@@ -1,10 +1,18 @@
+.page{
+  margin: 0;
+  padding: 0;
+}
 .header{
   background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.532)),
-  url(https://img.freepik.com/free-photo/aesthetic-background-with-light-sunset-projector-lamp_53876-108122.jpg?t=st=1714371739~exp=1714375339~hmac=b87bcec0cc48b6fb815716871e6f1014c82e292a08b0bbf94dba0fc7d01b81b1&w=996);
+  url(https://img.freepik.com/free-photo/gradient-background-with-pink-purple-light-effect_53876-108171.jpg?t=st=1714454738~exp=1714458338~hmac=c838d8a88a7a7d6bc20ea586f1dbb082af59a974a7781173462da711ddc0d120&w=996);
   background-size: cover;
   background-position: center;
-  height: 90vh;
-  height-left:70vh;
+  height: 100vh;
+  
+}
+
+.contain{
+  overflow: hidden;
 }
 .home-text{
   position: absolute;
@@ -24,7 +32,7 @@
 }
 
 .home-btn-price{
-  margin-left: 43%;
+  margin-left: 37%;
 }
 
 .home-brand{
@@ -32,7 +40,7 @@
 }
 
 .upgrade{
-  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.532)),
+  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.532) ),
   url(https://feeflow.in/assets/img/events/launch-event-2@2x.webp);
   background-size: cover;
   background-position: center;
@@ -41,6 +49,16 @@
 
 .text-color{
   color: #8B5CF6;
+}
+
+.feature-img{
+    margin-left: 40%;
+}
+.logo{
+  height: 60px;
+}
+.navbar-bg{
+  background-color:#292B75;
 }
 
 .Btn {
@@ -198,3 +216,99 @@
 .cssbuttons-io-button:active .icon {
   transform: scale(0.95);
 }
+
+.laptop{
+margin-left: 15%;
+}
+
+
+
+.tilt-in-fwd-tr {
+	-webkit-animation: tilt-in-fwd-tr 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: tilt-in-fwd-tr 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes tilt-in-fwd-tr {
+  0% {
+    -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+            transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+            transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+@keyframes tilt-in-fwd-tr {
+  0% {
+    -webkit-transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+            transform: rotateY(20deg) rotateX(35deg) translate(300px, -300px) skew(-35deg, 10deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+            transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+    opacity: 1;
+  }
+}
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(0,140,255);
+  box-shadow: 0 0 25px rgb(0,140,255);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255);
+}
+
+.tilt-in-bottom-2 {
+	-webkit-animation: tilt-in-bottom-2 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: tilt-in-bottom-2 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes tilt-in-bottom-2 {
+  0% {
+    -webkit-transform: rotateY(-30deg) translateY(300px) skewY(30deg);
+            transform: rotateY(-30deg) translateY(300px) skewY(30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+@keyframes tilt-in-bottom-2 {
+  0% {
+    -webkit-transform: rotateY(-30deg) translateY(300px) skewY(30deg);
+            transform: rotateY(-30deg) translateY(300px) skewY(30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+            transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+
+.price-btn{
+  margin-left: 20%;
+}
+
